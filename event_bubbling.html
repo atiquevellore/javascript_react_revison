@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			div {
+				border: 2px solid black;
+				min-width: 100px;
+				min-height: 100px;
+				padding: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <input type="text" onkeyup="autoSuggest()" /> -->
+		<div id="grandparent">
+            <h2> Grand Parent div</h2>
+			<div id="parent">
+                <h2> Parent div</h2>
+				<div id="child"><h1>child div</h1></div>
+			</div>
+		</div>
+		<script src="./event_bubbling.js"></script>
+	</body>
+</html>
